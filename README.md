@@ -2,14 +2,19 @@
 
 ## Overview
 
-✓ Selected topic 
+### Selected Topic
+The selected topic for this project is educational outcomes, specifically using demographic information to correlate with and attempt to predict student success metrics. 
 
-✓ Reason why they selected their topic 
 
-✓ Description of their source of data 
+### Reason why we selected our topic
+We selected this topic because education is important to all the members of our group, and we are interested in learning more about the relationship between the demographics and resourcing of a school and its success outcomes. 
 
-✓ Questions they hope to answer with
-the data
+### Description of Data Source
+We will be combining two datasets with information regarding New York City schools: one dataset contains demographic information (including information regarding race, gender, economic status, etc.), and the other contains information related to student success. Both datasets contain a column with unique school identification codes, and the tables can be joined on this column. The source for both datasets is NYCOpenData. 
+
+### Question
+The question we are hoping to answer is, "Can demographic information be used to predict student success outcomes?
+
 
 
 ## Communication Protocols
