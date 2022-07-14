@@ -15,7 +15,7 @@ We will be combining two datasets with information regarding New York City schoo
 A provisional join on a small sample of these two datasets (preserving the full set of features) is available as a CSV in the Machine Learning folder of this repository.
 
 ### Question
-The question we are hoping to answer is, "Can demographic information be used to predict student success outcomes?
+The question we are hoping to answer is, "Can demographic information be used to predict student success outcomes?"
 
 
 
