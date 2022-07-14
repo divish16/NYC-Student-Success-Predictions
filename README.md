@@ -12,6 +12,8 @@ We selected this topic because education is important to all the members of our 
 ### Description of Data Source
 We will be combining two datasets with information regarding New York City schools: one dataset contains demographic information (including information regarding race, gender, economic status, etc.), and the other contains information related to student success. Both datasets contain a column with unique school identification codes, and the tables can be joined on this column. The source for both datasets is NYCOpenData. 
 
+A provisional join on a small sample of these two datasets (preserving the full set of features) is available as a CSV in the Machine Learning folder of this repository.
+
 ### Question
 The question we are hoping to answer is, "Can demographic information be used to predict student success outcomes?
 
