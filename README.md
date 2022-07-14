@@ -22,8 +22,21 @@ The question we are hoping to answer is, "Can demographic information be used to
 
 ## Machine Learning Model
 
-The machine learning model will take in features from the database (using the "Sample_student_success_data_for_testing.csv" as a provisional database) and use them on predicted target values. For example, features in the provisional database include features like the percentage of English language learners, demographic information like race and gender, and economic information like the percentage of the cohort living under the poverty line. These can be used as features to predict a target variable such as "percentage dropped out of cohort" using supervised machine learning.
+The machine learning model will take in features from the dataset and use them on predicted target values.
+
+Since we are interested in using demographic features to predict student success outcomes, our target values may be columns like "graduation percentage" or "dropout rate percentage."
+
+**Please see the Machine Learning folder in this repository** for a test on the provisional dataset ("Sample_student_success_data_for_testing.csv") to predict the y target value "Dropped out % of cohort" using the other demographic and success columns as features in RandomForestRegressor. This sample test also includes feature importances, which will be an important consideration as we decide which features to remove in order to improve the model.
+
 
 ### Tools
 
-The current strategy includes using Random Forest to determine feature importances in order to reduce the number of features in the database for accuracy in predicting the target.
+We plan to use RandomForestRegressor in addition to other machine learning tools (multivariable linear regression, neural networks, etc.) to identify which machine learning tools have the highest accuracy scores. 
+
+
+### Opportunities for Improvement 
+
+Opportunities for improving our machine learning model include:
+* Trying different machine learning options
+* Reducing features in the dataset
+* Choosing new targets for testing (e.g., graduation outcomes instead of percentage of students who have dropped out)
