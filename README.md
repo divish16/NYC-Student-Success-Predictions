@@ -20,7 +20,7 @@ The question we are hoping to answer is, "Can demographic information be used to
 
 
 ## Communication Protocols
-
+Our team communicates the results of our project through the use of Python language, Jupyter Notebook, RandomForestClassifier, Tableau, and pgAdmin and PostgreSQL for our databases. For everything else, our team utilizes Slack as our main line of communication to keep each other up to date on our findings and ask and answer questions. Additionally, we use Zoom to regularly meet with each other and discuss the project in greater detail. 
 
 ## Machine Learning Model
 
