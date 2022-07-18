@@ -42,3 +42,17 @@ Opportunities for improving our machine learning model include:
 * Trying different machine learning options
 * Reducing features in the dataset
 * Choosing new targets for testing (e.g., graduation outcomes instead of percentage of students who have dropped out)
+
+
+## Dashboard
+
+### Tools 
+We will be using visualizations in Tableau embedded in a dashboard/webpage hosted through Heroku App. 
+
+### Interactive Elements
+Our datasets contain elements from multiple years. We are planning on creating visualizations the user can interact with by selecting the year. 
+
+### Storyboard 
+Please see the Google Slides document (add link) for a storyboard and draft visualizations. 
+
+
