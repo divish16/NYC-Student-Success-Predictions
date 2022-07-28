@@ -1,7 +1,3 @@
--- Exported from QuickDBD: https://www.quickdatabasediagrams.com/
--- Link to schema: https://app.quickdatabasediagrams.com/#/d/7YZipZ
--- NOTE! If you have used non-SQL datatypes in your design, you will have to change these here.
-
 
 CREATE TABLE "Demographics" (
     "DBN" varchar   NOT NULL,
@@ -67,6 +63,44 @@ CREATE TABLE "Graduation" (
      )
 );
 
+CREATE TABLE "Poverty" (
+    "DBN" varchar   NOT NULL,
+    "School_Name" varchar   NOT NULL,
+    "Year" varchar   NOT NULL,
+    "Grade9" varchar   NOT NULL,
+    "Grade10" varchar   NOT NULL,
+    "Grade11" varchar   NOT NULL,
+    "Grade12" varchar   NOT NULL,
+    "Num_Female" varchar   NOT NULL,
+    "Per_Female" varchar   NOT NULL,
+    "Num_Male" varchar   NOT NULL,
+    "Per_Male" varchar   NOT NULL,
+    "Num_Asian" varchar   NOT NULL,
+    "Per_Asian" varchar   NOT NULL,
+    "Num_Black" varchar   NOT NULL,
+    "Per_Black" varchar   NOT NULL,
+    "Num_Hispanic" varchar   NOT NULL,
+    "Per_Hispanic" varchar   NOT NULL,
+    "Num_Multi_Racial" varchar   NOT NULL,
+    "Per_Multi_Racial" varchar   NOT NULL,
+    "Num_Native_American" varchar   NOT NULL,
+    "Per_Native_American" varchar   NOT NULL,
+    "Num_White" varchar   NOT NULL,
+    "Per_White" varchar   NOT NULL,
+    "Num_Missing_Race_Data" varchar   NOT NULL,
+    "Per_Missing_Race_Data" varchar   NOT NULL,
+    "Num_Students_with_Disabilities" varchar   NOT NULL,
+    "Per_Students_with_Disabilities" varchar   NOT NULL,
+    "Num_English_Language_Learners" varchar   NOT NULL,
+    "Per_English_Language_Learners" varchar   NOT NULL,
+    "Num_Poverty" varchar   NOT NULL,
+    "Per_Poverty" varchar   NOT NULL,
+    "Economic_Need_Index" varchar   NOT NULL,
+    CONSTRAINT "pk_Poverty" PRIMARY KEY (
+        "DBN"
+     )
+);
+
 CREATE TABLE "Demo_Summary" (
     "DBN" varchar   NOT NULL,
     "Total_Enrollment" varchar   NOT NULL,
@@ -122,3 +156,42 @@ CREATE TABLE "Poverty_Summary" (
         "DBN"
      )
 );
+
+SELECT DISTINCT ON(d."DBN")d."DBN",
+ d."ell_num",
+ d."sped_num",
+ d."asian_num",
+ d."black_num",
+ d."hispanic_num",
+ d.white_num,
+ d.male_num,
+ d.female_num,
+ gd."Total_Cohort_Num" ,
+ gd."Total_Grads_Num",
+ gd."Total_Regents_Num" ,
+ gd."Advanced_Regents_Num" ,
+ gd."Regents_Without_Advanced_Num",
+ gd."Local_Num",
+ gd."Still_Enrolled_Num" ,
+ gd."Dropped_Out_Num",
+ pt."School_Name",
+ pt."Year",
+ d."total_enrollment",
+ pt."Num_Female",
+ pt."Num_Male",
+ pt."Num_Asian",
+ pt."Num_Black",
+ pt."Num_Hispanic",
+ pt."Num_Multi_Racial",
+ pt."Num_Native_American",
+ pt."Num_White",
+ pt."Num_English_Language_Learners",
+ pt."Num_Poverty",
+ pt."Economic_Need_Index"
+INTO merged_data
+FROM "Demographics" as d
+	INNER JOIN "Graduation" as gd
+	ON d."DBN"= gd."DBN"
+	INNER JOIN "Poverty" as pt
+	ON d."DBN" = pt."DBN"
+ORDER BY "DBN";
