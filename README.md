@@ -34,7 +34,7 @@ The machine learning model will take in features from the dataset and use them o
 
 Since we are interested in using demographic features to predict student success outcomes, our target values may be columns like "graduation percentage" or "dropout rate percentage."
 
-**Please see the Machine Learning folder in this repository** for a test on the provisional dataset ("Sample_student_success_data_for_testing.csv") to predict the y target value "Dropped out % of cohort" using the other demographic and success columns as features in RandomForestRegressor. This sample test also includes feature importances, which will be an important consideration as we decide which features to remove in order to improve the model.
+** Please see the ML_segment2 for a test on the provisional dataset to predict the y target value "Dropped out #" using the other demographic and success columns as features in different regression models. We used four models: random forest regression, support vector regression, decision tree regression, and multiple linear regression. The multiple linear regression model of these four models has the highest accuracy scores, so we have used it to predict the outcome.
 
 ### Headings
 
@@ -44,11 +44,6 @@ Certain headings in our dataset require some explanation but can be used in our 
 * Local: A "local" diploma is a diploma that does not contain the distinction of a Regents or Advanced Regents designation.
 * frl_percent: The percent of students receiving free or reduced-price lunch.
 * ell_percent: The percentage of students who are English language learners (for whom English is not their first language).
-
-
-### Tools
-
-We plan to use RandomForestRegressor in addition to other machine learning tools (multivariable linear regression, neural networks, etc.) to identify which machine learning tools have the highest accuracy scores. 
 
 
 ### Opportunities for Improvement 
