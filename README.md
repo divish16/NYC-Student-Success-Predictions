@@ -10,9 +10,9 @@ The selected topic for this project is educational outcomes, specifically using 
 We selected this topic because education is important to all the members of our group, and we are interested in learning more about the relationship between the demographics and resourcing of a school and its success outcomes. 
 
 ### Description of Data Source
-We will be combining two datasets with information regarding New York City schools: one dataset contains demographic information (including information regarding race, gender, economic status, etc.), and the other contains information related to student success. Both datasets contain a column with unique school identification codes, and the tables can be joined on this column. The source for both datasets is NYCOpenData. 
+We will be combining three datasets with information regarding New York City schools: two datasets contain demographic and poverty information (including information regarding race, gender, economic status, etc.), and the third contains information related to student success. All datasets contain a column with unique school identification codes, and the tables can be joined on this column. The source for both datasets is NYCOpenData. 
 
-A provisional join on a small sample of these two datasets (preserving the full set of features) is available as a CSV in the Machine Learning folder of this repository.
+A provisional join on a small sample of these datasets (preserving the full set of features) is available as a CSV in the Machine Learning folder of this repository.
 
 ### Question
 The question we are hoping to answer is, "Can demographic information be used to predict student success outcomes?"
@@ -21,6 +21,11 @@ The question we are hoping to answer is, "Can demographic information be used to
 
 ## Communication Protocols
 Our team communicates the results of our project through the use of Python language, Jupyter Notebook, RandomForestClassifier, Tableau, and pgAdmin and PostgreSQL for our databases. For everything else, our team utilizes Slack as our main line of communication to keep each other up to date on our findings and ask and answer questions. Additionally, we use Zoom to regularly meet with each other and discuss the project in greater detail. 
+
+
+## Database
+
+The database platforms used for this project are pgAdmin and Amazon RDS.  Tables have been created in pgAdmin with SQL and connected to an Amazon RDS server. Through importing the database into Jupyter Notebook, we will access the data for the Machine Learning Model.
 
 
 ## Machine Learning Model
