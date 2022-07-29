@@ -34,7 +34,7 @@ The machine learning model will take in features from the dataset and use them o
 
 Since we are interested in using demographic features to predict student success outcomes, our target values may be columns like "graduation percentage" or "dropout rate percentage."
 
-**Please see the ML_segment2 for a test on the provisional dataset to predict the y target value "Dropped out #" using the other demographic and success columns as features in different regression models. We used four models: random forest regression, support vector regression, decision tree regression, and multiple linear regression. The multiple linear regression model of these four models has the highest accuracy scores, so we have used it to predict the outcome.
+**Please see the ML_segment2** for a test on the provisional dataset to predict the y target value "Dropped out #" using the other demographic and success columns as features in different regression models. We used four models: random forest regression, support vector regression, decision tree regression, and multiple linear regression. The multiple linear regression model of these four models has the highest accuracy scores, so we have used it to predict the outcome.
 
 ### Headings
 
