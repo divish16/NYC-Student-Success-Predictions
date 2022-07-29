@@ -60,7 +60,7 @@ Opportunities for improving our machine learning model include:
 We will be using visualizations in Tableau embedded in a dashboard/webpage hosted through Heroku App. 
 
 ### Interactive Elements
-Our datasets contain elements from multiple years. We are planning on creating visualizations the user can interact with by selecting the year. 
+Our visualizations in Tableau will contain tooltips and filters that the user can select to interact with the data.
 
 ### Storyboard 
 Please see the [Google Slides document](https://docs.google.com/presentation/d/1yrxx6Bk8EuMXWr7sp-KUwkpEcP36z3AuLwSETIGqnhA/edit?usp=sharing) for a storyboard and draft visualizations. 
