@@ -1,6 +1,6 @@
 body {
 
-    color: #d2c7bc;
+    color: #f5eae0;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -27,4 +27,14 @@ ul {
 .homepage {
     background-image: url(C:/Users/divya/Downloads/wallpaperflare.com_wallpaper.jpg);
     background-size: cover;
+    width: 95vw;
+    height: 95vh;
+}
+.hometext {
+  width: 100%;
+  height: 100%;
+  font-size: 26px;
+}
+p {
+  font-size: 20px;
 }
