@@ -32,7 +32,67 @@ ul {
     width: 98vw;
     height: 98vh;
 }
+.aboutus {
+    background-image: url(C:/Users/divya/OneDrive/Documents/NYC-Student-Success-Predictions/website_deployment/static/wallpaperflare.com_wallpaper.jpg);
+    background-size: cover;
+    background-color:  #323130;
+    width: 98vw;
+    height: 98vh;   
+}
+.data {
+  background-image: url(C:/Users/divya/OneDrive/Documents/NYC-Student-Success-Predictions/website_deployment/static/wallpaperflare.com_wallpaper.jpg);
+  background-size: cover;
+  background-color:  #323130;
+  width: 98vw;
+  height: 98vh;
+}
+.conclusions {
+  background-image: url(C:/Users/divya/OneDrive/Documents/NYC-Student-Success-Predictions/website_deployment/static/wallpaperflare.com_wallpaper.jpg);
+  background-size: cover;
+  background-color:  #323130;
+  width: 98vw;
+  height: 98vh;
+}
+.research {
+  background-image: url(C:/Users/divya/OneDrive/Documents/NYC-Student-Success-Predictions/website_deployment/static/wallpaperflare.com_wallpaper.jpg);
+  background-size: cover;
+  background-color:  #323130;
+  width: 98vw;
+  height: 98vh;
+}
 .hometext {
+  width: 100%;
+  height: 100%;
+  font-size: 26px;
+  position:relative;
+  left: 20px;
+  right: 40px;
+}
+.datatext {
+  width: 100%;
+  height: 100%;
+  font-size: 26px;
+  position:relative;
+  left: 20px;
+  right: 40px;
+}
+.researchtext {
+  width: 100%;
+  height: 100%;
+  font-size: 26px;
+  position:relative;
+  left: 20px;
+  right: 40px;
+}
+.conclusionstext {
+  width: 100%;
+  height: 100%;
+  font-size: 26px;
+  position:relative;
+  left: 20px;
+  right: 40px;
+}
+.aboutustext {
   width: 100%;
   height: 100%;
   font-size: 26px;
