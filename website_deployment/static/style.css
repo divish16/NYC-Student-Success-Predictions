@@ -27,6 +27,7 @@ ul {
 .homepage {
     background-image: url(C:/Users/divya/OneDrive/Documents/NYC-Student-Success-Predictions/website_deployment/static/wallpaperflare.com_wallpaper.jpg);
     background-size: cover;
+    background-color:  #323130;
     width: 95vw;
     height: 95vh;
 }
