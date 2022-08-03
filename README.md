@@ -73,4 +73,4 @@ Screenshots of sample visualizations can be found below:
 This sample viz correlates the percentage of students receiving advanced diplomas (Advanced Regents) with the percentage of English Language Learners in each individual school.
 
 ![image](https://user-images.githubusercontent.com/100863488/182727154-2d74d6a4-ec29-4da2-a7a5-7fed22cdd5f2.png)
-This sample viz correlates the percentage of students at a school with disabilities with economic need index.
+This sample viz correlates the percentage of students receiving special education services with the percentage of students at a school with disabilities as well as economic need index.
