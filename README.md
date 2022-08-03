@@ -70,5 +70,5 @@ Please see the [Google Slides document](https://docs.google.com/presentation/d/1
 Screenshots of sample visualizations can be found below:
 
 ![image](https://user-images.githubusercontent.com/100863488/182726887-56f29b93-c023-44d5-a09d-1d49bdfb620a.png)
-
+This sample viz correlates the percentage of students receiving advanced diplomas (Advanced Regents) with the percentage of English Language Learners in each individual school.
 
