@@ -65,5 +65,12 @@ Our visualizations in Tableau will contain tooltips and filters that the user ca
 ### Storyboard 
 Please see the [Google Slides document](https://docs.google.com/presentation/d/1yrxx6Bk8EuMXWr7sp-KUwkpEcP36z3AuLwSETIGqnhA/edit?usp=sharing) for a storyboard and draft visualizations. 
 
+### Sample Visualizations
 
+Screenshots of sample visualizations can be found below:
 
+![image](https://user-images.githubusercontent.com/100863488/182726887-56f29b93-c023-44d5-a09d-1d49bdfb620a.png)
+This sample viz correlates the percentage of students receiving advanced diplomas (Advanced Regents) with the percentage of English Language Learners in each individual school.
+
+![image](https://user-images.githubusercontent.com/100863488/182727154-2d74d6a4-ec29-4da2-a7a5-7fed22cdd5f2.png)
+This sample viz correlates the percentage of students receiving special education services with the percentage of students at a school with disabilities as well as economic need index.
