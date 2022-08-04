@@ -32,9 +32,12 @@ The database platforms used for this project are pgAdmin and Amazon RDS.  Tables
 
 The machine learning model will take in features from the dataset and use them on predicted target values.
 
-Since we are interested in using demographic features to predict student success outcomes, our target values may be columns like "graduation percentage" or "dropout rate percentage."
+Since we are interested in using demographic and poverty features to predict student success outcomes, our target value is Dropped out number.
 
-**Please see the ML_segment2 in Machine Learning** for a test on the provisional dataset to predict the y target value "Dropped out #" using the other demographic and success columns as features in different regression models. We used four models: random forest regression, support vector regression, decision tree regression, and multiple linear regression. The multiple linear regression model of these four models has the highest accuracy scores, so we have used it to predict the outcome.
+**Please see the ML_segment3 in Machine Learning** for a test on the provisional dataset to predict the y target value "Dropped out #" using the other demographic and success columns as features in different regression models. We used four models: random forest regression, support vector regression, decision tree regression, and multiple linear regression. The multiple linear regression model of these four models has the highest accuracy scores, so we have used it to predict the outcome.
+
+<img width="629" alt="Screen Shot 2022-08-04 at 8 52 51 AM" src="https://user-images.githubusercontent.com/100738688/182879614-7897b7ef-4952-47e1-b73f-10193a4b7bf0.png">
+
 
 ### Headings
 
