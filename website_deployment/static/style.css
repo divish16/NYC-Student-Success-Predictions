@@ -103,8 +103,10 @@ ul {
   left: 20px;
   right: 40px;
 }
+
 p {
   font-size: 20px;
+  margin-right: 150px;
 }
 
 .breaking{    
