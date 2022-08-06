@@ -39,7 +39,12 @@ ul {
     width: 98vw;
     height: 98vh;   
 }
-.data {
+.visualizations {
+  background-color:  #323130;
+  width: 98vw;
+  height: 98vh;
+}
+.machine {
   background-image: url(wallpaperflare.com_wallpaper.jpg);
   background-size: cover;
   background-color:  #323130;
@@ -68,7 +73,7 @@ ul {
   left: 20px;
   right: 40px;
 }
-.datatext {
+.machinetext {
   width: 100%;
   height: 100%;
   font-size: 26px;
@@ -102,4 +107,9 @@ ul {
 }
 p {
   font-size: 20px;
+}
+
+.breaking{    
+    width:500px;
+    word-wrap: break-word;
 }
