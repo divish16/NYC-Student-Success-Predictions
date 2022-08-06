@@ -22,16 +22,16 @@
             <div class="container" id="marg">
              
             <h3>Datasets</h3><br>
-            <p style="font-size:15px;">Four datasets were used and joined to create the data used for visualizations and machine learning:
+            <p>Four datasets were used and joined to create the data used for visualizations and machine learning:
             
-                <div><a href="https://data.cityofnewyork.us/Education/2006-2012-School-Demographics-and-Accountability-S/ihfw-zy9j">2006 - 2012 School Demographics and Accountability Snapshot</a>, which contains demographic information regarding NYC cohorts and schools (referred to as "Demographic_df")
+                <div style="font-size:18px;"><a href="https://data.cityofnewyork.us/Education/2006-2012-School-Demographics-and-Accountability-S/ihfw-zy9j">2006 - 2012 School Demographics and Accountability Snapshot</a>, which contains demographic information regarding NYC cohorts and schools (referred to as "Demographic_df")
                 <br><a href="https://data.cityofnewyork.us/Education/2016-2017-Graduation-Outcomes-School/nb39-jx2v">2016-2017 Graduation Outcomes School</a>, which contains information regarding NYC schools' success metrics (referred to as "Graduation_df")
                 <br><a href="https://data.cityofnewyork.us/Education/2017-18-2021-22-Demographic-Snapshot/c7ru-d68s/data">2017-18 - 2021-22 Demographic Snapshot</a>, which contains additional demographic information for NYC schools, notable figures on the percentage of students living in poverty and the Economic Need Index (referred to as "Poverty_df")
                 <br><a href="https://www.kaggle.com/datasets/nycopendata/high-schools?select=scores.csv">Average SAT Scores for NYC Public Schools</a>, which contains success metrics as well as latitude and longitude (for visualizations), referred to as "Latlng_df"
                     </p></div>
         <br></br>
     <h3>Extract, Load, Transform</h3>
-        <pstyle="font-size:15px;">The four datasets above contained information regarding cohorts over multiple years and included different age groups of students. Our goal was to correlate demographic information and high school success metrics. In order to compare the information school by school, we took the following steps:<br>
+        <p style="font-size:15px;">The four datasets above contained information regarding cohorts over multiple years and included different age groups of students. Our goal was to correlate demographic information and high school success metrics. In order to compare the information school by school, we took the following steps:<br>
         
                 <div>Reduced the datasets to include only schools that had students in 9th, 10th, 11th, and/or 12th grades
                 <br>Cleaned the data, including: dropping unnecessary columns, converting non-numeric datatypes to numeric datatypes, and using regular expressions where needed to remove unnecessary non-numeric characters
