@@ -113,3 +113,7 @@ p {
     width:500px;
     word-wrap: break-word;
 }
+
+#marg div {
+  margin-left: 15px
+}
