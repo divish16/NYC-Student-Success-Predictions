@@ -38,9 +38,9 @@ Since we are interested in using demographic and poverty features to predict stu
 
 
 
-### Headings
+### Additional Features Information
 
-Certain headings in our dataset require some explanation but can be used in our evaluation. They include:
+Certain headings in our dataset require some explanation but have be used in our evaluation. They include:
 
 * Regents: Students in NYC can earn one of three types of diplomas (Local, Regents, Advanced Regents). A "Regents" diploma can be earned after a series of tests and shows some distinction. An "Advanced Regents" diploma is the highest distinction in these categories. Therefore we can use the percentages of students earning Regents and Advanced Regents diplomas as an indicator of the school's overall academic distinction. More information can be found here: https://www.schools.nyc.gov/learning/student-journey/graduation-requirements
 * Local: A "local" diploma is a diploma that does not contain the distinction of a Regents or Advanced Regents designation.
@@ -48,18 +48,12 @@ Certain headings in our dataset require some explanation but can be used in our 
 * ell_percent: The percentage of students who are English language learners (for whom English is not their first language).
 
 
-### Opportunities for Improvement 
-
-Opportunities for improving our machine learning model include:
-* Trying different machine learning options
-* Reducing features in the dataset
-* Choosing new targets for testing (e.g., graduation outcomes instead of percentage of students who have dropped out)
 
 
 ## Dashboard
 
 ### Tools 
-We will be using visualizations in Tableau embedded in a dashboard/webpage hosted through Heroku App. 
+We have built a website using Heroku to display our findings and our visualizations: https://nyc-success-predictions.herokuapp.com/
 
 ### Interactive Elements
 Our visualizations in Tableau will contain tooltips and filters that the user can select to interact with the data.
@@ -69,7 +63,7 @@ Please see the [Google Slides document](https://docs.google.com/presentation/d/1
 
 ### Sample Visualizations
 
-Screenshots of sample visualizations can be found below:
+Screenshots of sample visualizations can be found below. Please visit our Heroku site (https://nyc-success-predictions.herokuapp.com/) to view additional visualizations and interact with the data.
 
 ![image](https://user-images.githubusercontent.com/100863488/182726887-56f29b93-c023-44d5-a09d-1d49bdfb620a.png)
 This sample viz correlates the percentage of students receiving advanced diplomas (Advanced Regents) with the percentage of English Language Learners in each individual school.
