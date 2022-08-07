@@ -58,9 +58,6 @@ We have built a website using Heroku to display our findings and our visualizati
 ### Interactive Elements
 Our visualizations in Tableau will contain tooltips and filters that the user can select to interact with the data.
 
-### Storyboard 
-Please see the [Google Slides document](https://docs.google.com/presentation/d/1yrxx6Bk8EuMXWr7sp-KUwkpEcP36z3AuLwSETIGqnhA/edit?usp=sharing) for a storyboard and draft visualizations. 
-
 ### Sample Visualizations
 
 Screenshots of sample visualizations can be found below. Please visit our Heroku site (https://nyc-success-predictions.herokuapp.com/) to view additional visualizations and interact with the data.
