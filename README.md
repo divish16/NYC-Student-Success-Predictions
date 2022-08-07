@@ -10,15 +10,13 @@ The selected topic for this project is educational outcomes, specifically using 
 We selected this topic because education is important to all the members of our group, and we are interested in learning more about the relationship between the demographics and resourcing of a school and its success outcomes. 
 
 ### Description of Data Source
-We will be combining three datasets with information regarding New York City schools: two datasets contain demographic and poverty information (including information regarding race, gender, economic status, etc.), and the third contains information related to student success. All datasets contain a column with unique school identification codes, and the tables can be joined on this column. The source for both datasets is NYCOpenData. 
-
-A provisional join on a small sample of these datasets (preserving the full set of features) is available as a CSV in the Machine Learning folder of this repository.
+We will be combining datasets with information regarding New York City schools: two datasets contain demographic and poverty information (including information regarding race, gender, economic status, etc.), and a third contains information related to student success. The fourth dataset was joined with the previous three as it included latitude and longitude for map visualizations. Please visit [Google Slides](https://docs.google.com/presentation/d/1yrxx6Bk8EuMXWr7sp-KUwkpEcP36z3AuLwSETIGqnhA/edit?usp=sharing) for links to our datasets.
 
 ### Question
 The question we are hoping to answer is, "Can demographic information be used to predict student success outcomes?"
 
-## Presentation
 
+## Presentation
 Please view our presentation materials in [Google Slides](https://docs.google.com/presentation/d/1yrxx6Bk8EuMXWr7sp-KUwkpEcP36z3AuLwSETIGqnhA/edit?usp=sharing).
 
 
