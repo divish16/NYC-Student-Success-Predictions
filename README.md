@@ -17,10 +17,9 @@ A provisional join on a small sample of these datasets (preserving the full set 
 ### Question
 The question we are hoping to answer is, "Can demographic information be used to predict student success outcomes?"
 
+## Presentation
 
-
-## Communication Protocols
-Our team communicated the results of our project and visualizations through the use of Python language, Jupyter Notebook, RandomForestClassifier, Tableau, Heroku, HTML, and pgAdmin and PostgreSQL for our databases. For everything else, our team utilizes Slack as our main line of communication to keep each other up to date on our findings and ask and answer questions. Additionally, we use Zoom to regularly meet with each other and discuss the project in greater detail. 
+Please view our presentation materials in [Google Slides](https://docs.google.com/presentation/d/1yrxx6Bk8EuMXWr7sp-KUwkpEcP36z3AuLwSETIGqnhA/edit?usp=sharing).
 
 
 ## Database
