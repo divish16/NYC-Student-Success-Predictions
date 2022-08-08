@@ -17,9 +17,32 @@
         <li><a href="website.html">Home</a></li>
       </ul>
     <div class="machine">
-        <div class="machinetext">
+        <div class="machinetext" id="marg">
             <h2>Machine Learning Models</h2>
-            <p></p>
+            <p>Our machine learning study was a regression study on the impact of Demographic and Poverty features on student success.</p>
+            <p>The regression model seeks to determine if a relationship exists between a student's success and demographic and poverty factors. These features used from the dataset include: Race, Gender, English language learners, Total Cohort, Total Regents, Advanced Regents #, Regent’s w/o Advanced #, Total Enrollment, Still Enrolled, Number in Poverty, and Economic Need Index. "Regents" refers to students receiving an honors diploma.</p>
+            <p>We use a supervised learning method for regression as our target, dropout rate, is a continuous variable. We tried different machine learning algorithms, such as Random Forest Regressor (RFR), Decision Tree Regressor (DTR), Support Vector Regression (SVR), and Multiple Linear Regression (MLR). We evaluated these algorithms by r2_score, Mean Absolute Error (MLE), Mean Squared Error (MSE), and Root Mean Squared Error (RMSE). Of all these algorithms, Multiple Linear Regression performed the best.</p>
+            <p>An overview of creating the Multiple Linear Regression model follows:
+    
+            <div style="font-size:18px;">1. Imported libraries, including Scikit-learn as this includes a multiple regression module
+             <br><br>2. Defined x (features) and y (target) for the model
+                <br><br>3. Split the dataset: 80% for the training set, and 20% for the testing set
+                <br><br>4. Create an instance of the model
+                <br><br>5. Train the model with the dataset with the model. fit(X_train,y_train)
+                <br><br>6. Create predictions with y_pred = model.predict(X_test)
+                
+                    </div>
+            </p>
+        <div class="mltable">
+        <center><img src="/static/MAE.png"><br>
+        <img src="/static/MSE.png"><br>
+        <img src="/static/RMSE.png"><br>
+        <img src="/static/Accuracy score vs Regression models.png"><br>
+        <img src="/static/Error metrics vs Regression models.png"><br>
+           
+        </center>
+                                                                 
         </div>
+    </div>
     </div>
 </body>
