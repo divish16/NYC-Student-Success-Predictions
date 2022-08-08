@@ -195,3 +195,10 @@ FROM "Demographics" as d
 	INNER JOIN "Poverty" as pt
 	ON d."DBN" = pt."DBN"
 ORDER BY "DBN";
+<<<<<<< Updated upstream
+=======
+
+SELECT * FROM "merged_data";
+
+SELECT COUNT(*) FROM "merged_data";
+>>>>>>> Stashed changes
