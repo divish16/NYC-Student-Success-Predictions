@@ -59,8 +59,6 @@ ul {
   height: 98vh;
 }
 .research {
-  background-image: url(wallpaperflare.com_wallpaper.jpg);
-  background-size: cover;
   background-color:  #323130;
   width: 98vw;
   height: 98vh;
@@ -105,6 +103,22 @@ ul {
   left: 20px;
   right: 40px;
 }
+
 p {
   font-size: 20px;
+  margin-right: 150px;
 }
+
+.breaking{    
+    width:500px;
+    word-wrap: break-word;
+}
+
+#marg div {
+  margin-left: 45px;
+  margin-right: 150px;
+}
+
+.mltable { 
+    background-color: #d3d3d3; 
+} 
