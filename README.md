@@ -31,7 +31,7 @@ The machine learning model will take in features from the dataset and use them o
 
 Since we are interested in using demographic and poverty features to predict student success outcomes, our target value is Dropped out number.
 
-**Please see the ML_segment3** for a test on the provisional dataset to predict the y target value "Dropped out #" using the other demographic and success columns as features in different regression models. We used four models: random forest regression, support vector regression, decision tree regression, and multiple linear regression. The multiple linear regression model of these four models performed the best based on the calculation of MAE(Mean Absolute Error),MSE(Mean Squared Error),RMSE(Root Mean Squared Error).
+**Please see the ML_segment4** for a test on the provisional dataset to predict the y target value "Dropped out #" using the other demographic and success columns as features in different regression models. We used four models: random forest regression, support vector regression, decision tree regression, and multiple linear regression. The multiple linear regression model of these four models performed the best based on the calculation of MAE(Mean Absolute Error),MSE(Mean Squared Error),RMSE(Root Mean Squared Error).
 
 <img width="642" alt="Screen Shot 2022-08-04 at 11 16 12 AM" src="https://user-images.githubusercontent.com/100738688/182883901-f526150b-ecb0-4d3a-8032-24bf84925966.png">
 
